@@ -1,0 +1,1 @@
+﻿namespace Bookify.Infrastructure.Outbox;public sealed class OutboxOptions{    public int IntervalInSeconds { get; init; } // How Often is it going to run ?      public int BatchSize { get; init; } // How many oubBox messages are going to read ? }
